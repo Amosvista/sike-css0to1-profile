@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px 60px;
     background-color: #fff;
     text-align: center;
+    border-bottom: 1px dotted black;
 }
 
 .info-section header h2 {
@@ -125,7 +126,9 @@ h1, h2, h3, h4, h5, h6 {
 .info-section ul li {
     list-style: none;
 }
-
+.whatido {
+    height: 500px;
+}
 .whatido__skill {
     float: left;
     background-repeat: no-repeat;
@@ -169,5 +172,49 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     overflow: hidden;
 }
+
+/* info-section get-in-touch */
+
+.get-in-touch li {
+    float: left;
+    overflow: hidden;
+    padding: 24px;
+}
+/* info-section contact */
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+  width: 40%;
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.box {
+    position: relative;
+    width: 40%;
+    margin: 20 auto;
+}
+
+.box label {
+    position: absolute;
+    right: 100%;
+    padding: 5px;
+}
+
+
+
 
 
