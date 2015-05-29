@@ -214,7 +214,78 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px;
 }
 
+/* device-width < 480px */
 
 
+@media only screen and (max-width : 480px) {
+  .container{
+    width: 100%;
+  }
+
+  .main-header h1{
+    font-size: 32px;
+  }
+
+  .main-nav ul li{
+    display: block;
+  }
+
+  .main-nav ul li:nth-child(1){
+    margin-top: 0;
+    padding-top: 15px;
+  }
+
+  .main-nav ul li:nth-child(4){
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
+  .info-section {
+    padding: 10px;
+  }
+  
+  .whatido{
+    overflow: hidden;
+    height: 900px;
+  }
+
+  li.whatido__skill {
+    margin-bottom: 40px;
+    margin-top:100px;
+    width: 100%;
+  }
+
+  .whatido__skill-list li:nth-child(1){
+    margin-top: 0;
+  }
+  .education-experience__list li *{
+    width: 100%;
+  }
+
+  .education-experience__list li img{
+    width: 40%;
+    margin: 0 30%;
+  }
+  
+  .photos__list li,.photos__list li img {
+    width: 100%;
+  }
+  .get-in-touch__list li{
+    padding: 0;
+    width: 50%;
+  }
+  .get-in-touch__list li img{
+    width: 80%;
+  }
+
+  .box {
+    width: 100%;
+  }
+  .box label{
+    position: static;
+    float: left;
+
+  }
+}
 
 
